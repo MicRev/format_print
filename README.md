@@ -13,10 +13,10 @@ Additionally, you can use your own class name or typename to declare a new `pr**
 1. Fundamental types
     Directly use the functions as you wish.
     ```cpp
-    printf(42);
-    prlongf(10000L);
-    prunsigned long longf(1000000uLL);
-    prsigned long doublef(123.456);
+    FormatPrint::printf(42);
+    FormatPrint::prlongf(10000L);
+    FormatPrint::prunsigned long longf(1000000uLL);
+    FormatPrint::prsigned long doublef(123.456);
     ```
 
 2. Class or Types you declared in your program
@@ -30,7 +30,7 @@ Additionally, you can use your own class name or typename to declare a new `pr**
 
     ```cpp
     SomeClassType a;
-    prSomeClassType(a);
+    FormatPrint::prSomeClassType(a);
     ```
 
 ## Install
