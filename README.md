@@ -30,7 +30,7 @@ Additionally, you can use your own class name or typename to declare a new `pr**
 
     ```cpp
     SomeClassType a;
-    FormatPrint::prSomeClassType(a);
+    FormatPrint::prSomeClassTypef(a);
     ```
 
 ## Install
